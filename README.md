@@ -5,6 +5,7 @@ Small dotnet core console app for converting script TSV documents into JSON form
 
 ## Input Document
 Document should be a TOME-format tabs-separated values (TSV) document.
+An example of such document can be found there: [TOME Example](https://docs.google.com/spreadsheets/d/1_-pYQTF3__aO8ktGBoTXIJRwPD7H56V2t4YUsSewUGw/edit#gid=0)
 A document should have following columns:
 
 | Chapter | Character | Text            | Condition     | Action   |
