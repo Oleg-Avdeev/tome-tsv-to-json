@@ -11,6 +11,6 @@ A document should have following columns:
 | ------- | --------- | --------------- | ------------- | -------- |
 | -       | -         | -               | -             | -        |
 
-Document can also have additional columns, configuration of the document van be changed by changing
+Document can also have additional columns, configuration of the document can be changed by changing
 	- TSV/Data/Line data model
 	- TSV/Parser/LineParser parser instructions
