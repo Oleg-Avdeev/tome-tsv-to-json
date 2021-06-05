@@ -1,0 +1,652 @@
+{
+  "Scenes": [
+    {
+      "Id": "Начало",
+      "Lines": [
+        {
+          "Character": "Нарратор",
+          "Text": "Ты слышишь этот странный звук?",
+          "State": "Только фон",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 0,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Конечно же нет. Но давай вообразим, что слышишь - так будет интереснее. ",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 0,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Давай представим на минутку, что за твоей спиной открылся пространственно-временной портал.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 0,
+          "NodeIndex": 2
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Что ты услышал в этот момент?",
+          "State": "",
+          "Actions": [],
+          "Choices": [
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Тиканье часов",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 2",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+1",
+                  "Operation": 0,
+                  "Variable": "1"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Как плавятся пласты времени",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 2",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+2",
+                  "Operation": 0,
+                  "Variable": "2"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "В моей жизни не так часто открываются порталы, так что не могу вообразить.",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 2",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+3",
+                  "Operation": 0,
+                  "Variable": "3"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            }
+          ],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 0,
+          "NodeIndex": 3
+        }
+      ]
+    },
+    {
+      "Id": "Начало 2",
+      "Lines": [
+        {
+          "Character": "Нарратор",
+          "Text": "Что же. Неплохой выбор. ",
+          "State": "Только фон",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Итак, портал открылся. Однако, так как это случилось на выставке современного искусства, никого он особенно и не удивил.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Люди тыкали в него пальцем, сделали пару селфи и просто решили, что это очередной арт-объект.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 2
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Один из многих на этой выставке.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 3
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Однако, стоило тебе подойти и взглянуть, что же это за штука, как из портала выглянуло чье-то лицо. Или это был шлем?",
+          "State": "Стандартная поза",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 4
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Здравствуйте!",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 5
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Простите пожалуйста, не могли бы вы помочь? Я впервые посещаю мероприятия вроде этого.",
+          "State": "",
+          "Actions": [],
+          "Choices": [
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Да, почему бы и нет?",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 2.1",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+1",
+                  "Operation": 0,
+                  "Variable": "1"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Тебе нужна моя одежда и мотоцикл?",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 2.2",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+2",
+                  "Operation": 0,
+                  "Variable": "2"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Вы выглядите, как говорящая лиса",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 2.3",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+3",
+                  "Operation": 0,
+                  "Variable": "3"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            }
+          ],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 1,
+          "NodeIndex": 6
+        }
+      ]
+    },
+    {
+      "Id": "Начало 2.1",
+      "Lines": [
+        {
+          "Character": "Эвер",
+          "Text": "О, большое спасибо!",
+          "State": "Персонаж удивлен",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 2,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Мне доводилось слышать, что люди прошлого очень добры. ",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 2,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Круто, что так и оказалось.",
+          "State": "",
+          "Actions": [
+            {
+              "ActionType": 1,
+              "Value": "Начало 3",
+              "Operation": 0
+            }
+          ],
+          "Choices": [],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 2,
+          "NodeIndex": 2
+        }
+      ]
+    },
+    {
+      "Id": "Начало 2.2",
+      "Lines": [
+        {
+          "Character": "Эвер",
+          "Text": "Вау, это же цитата из \\"Терминатора\\", да?",
+          "State": "Персонаж удивлен",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 3,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Мы проходили его на курсе классической поп-культуры в начальной школе.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 3,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Наверное, вы очень интеллигентный человек, раз цитируете классику. ",
+          "State": "",
+          "Actions": [
+            {
+              "ActionType": 1,
+              "Value": "Начало 3",
+              "Operation": 0
+            }
+          ],
+          "Choices": [],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 3,
+          "NodeIndex": 2
+        }
+      ]
+    },
+    {
+      "Id": "Начало 2.3",
+      "Lines": [
+        {
+          "Character": "Эвер",
+          "Text": "Оу. Простите, что ввела вас в заблуждение.",
+          "State": "Персонаж удивлен",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 4,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Эвер",
+          "Text": "К лисам я не имею никакого отношения.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 4,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Это просто шлем.",
+          "State": "",
+          "Actions": [
+            {
+              "ActionType": 1,
+              "Value": "Начало 3",
+              "Operation": 0
+            }
+          ],
+          "Choices": [],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 4,
+          "NodeIndex": 2
+        }
+      ]
+    },
+    {
+      "Id": "Начало 3",
+      "Lines": [
+        {
+          "Character": "Эвер",
+          "Text": "Так вот. О моей просьбе.",
+          "State": "Стандартная поза",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 5,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Дело в том, что я пришел из будущего.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 5,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Эвер",
+          "Text": "В моем времени все, что вы видите перед собой, считается классическим искусством.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 5,
+          "NodeIndex": 2
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Однако в силу модификаций, внесенных в мое сознание, я не могу понять, какие эмоции должен испытывать, глядя на него.",
+          "State": "",
+          "Actions": [],
+          "Choices": [
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Так ты - человек?",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 4",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+1",
+                  "Operation": 0,
+                  "Variable": "1"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Так ты - робот?",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 4",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+2",
+                  "Operation": 0,
+                  "Variable": "2"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "У тебя есть машина времени, и ты решил пообщаться СО МНОЙ?",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 1,
+                  "Value": "Начало 4",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+3",
+                  "Operation": 0,
+                  "Variable": "3"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            }
+          ],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 5,
+          "NodeIndex": 3
+        }
+      ]
+    },
+    {
+      "Id": "Начало 4",
+      "Lines": [
+        {
+          "Character": "Эвер",
+          "Text": "Эм... Ну...",
+          "State": "Стандартная поза",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 0
+        },
+        {
+          "Character": "Нарратор",
+          "Text": "Существо грустно вздохнуло, но тебе показалось, что сделало оно это скорее для театрального эффекта.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 1
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Да, я из будущего. Но в нашем времени все стало... Сложнее, по сравнению с вашим.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 2
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Я не до конца понимаю, кто я. Моей человечности достаточно, чтобы считаться человеком?",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 3
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Или я что-то совсем иное?",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 4
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Надеюсь, сегодня, глядя на эти прекрасные работы, прикоснувшись к истинному искусству, я смогу это понять.",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 5
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Ну что?",
+          "State": "",
+          "Actions": [],
+          "IsLast": false,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 6
+        },
+        {
+          "Character": "Эвер",
+          "Text": "Давайте прогуляемся по выставке?",
+          "State": "",
+          "Actions": [],
+          "Choices": [
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Надеюсь, ты со всем разберешься",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 2,
+                  "Value": "done",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+1",
+                  "Operation": 0,
+                  "Variable": "1"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Ну... пошли.",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 2,
+                  "Value": "done",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+2",
+                  "Operation": 0,
+                  "Variable": "2"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            },
+            {
+              "Character": "ВЫБОР:",
+              "Text": "Не понимаю, зачем тебе это знать? По ладно, давай.",
+              "State": "",
+              "Actions": [
+                {
+                  "ActionType": 2,
+                  "Value": "done",
+                  "Operation": 0
+                },
+                {
+                  "ActionType": 3,
+                  "Value": "+3",
+                  "Operation": 0,
+                  "Variable": "3"
+                }
+              ],
+              "IsLast": false,
+              "IsChoice": true,
+              "ChapterIndex": 0,
+              "NodeIndex": 0
+            }
+          ],
+          "IsLast": true,
+          "IsChoice": false,
+          "ChapterIndex": 6,
+          "NodeIndex": 7
+        }
+      ]
+    }
+  ]
+}
